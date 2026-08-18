@@ -1,4 +1,9 @@
 [core]
-    remote = remote_storage
+    remote = dagshub
 ['remote "remote_storage"']
     url = ../../dvc_remote
+['remote "remote_gdrive"']
+    url = gdrive://1LUQ614w6CChSY8fvE76HbtMLc4xVeF-F
+    gdrive_use_service_account = false
+['remote "dagshub"']
+    url = https://dagshub.com/Nouadje75/Template_MLOps_accidents.dvc
